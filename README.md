@@ -24,11 +24,11 @@ PVD-Net was originally proposed for scalar singularly perturbed ODEs; that code 
 
 ## Results
 
-![High-order PVD-Net on Setting D](images/settingD_high_order.png)
+![High-order PVD-Net on Setting D](settingD_high_order.png)
 
 *Setting D: three ion species (Ca²⁺, Na⁺, Cl⁻), a non-uniform channel h(x) = 1 − 0.2 sin(πx) and a permanent charge Q ≡ −0.15, ε = 10⁻². High-order PVD-Net against the reference solution. Going from two to three species changes only the output dimensions of the networks, not the architecture.*
 
-![Error decomposition versus ε](images/eps_sweep.png)
+![Error decomposition versus ε](eps_sweep.png)
 
 *Error of φ in Setting A for ε from 10⁻¹ to 10⁻⁴, split into the asymptotic truncation error E_asym, which involves no network, and the network error E_net. E_asym follows the predicted slopes O(ε) for Leading-order PVD-Net (left) and O(ε²) for High-order PVD-Net (right). E_net does not deteriorate as ε decreases, and the total error settles at E_net once the truncation error falls below it.*
 
