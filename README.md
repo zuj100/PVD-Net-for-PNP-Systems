@@ -6,7 +6,7 @@ Code for the paper
 
 PVD-Net (Prandtl–Van Dyke Neural Network) solves the steady-state Poisson–Nernst–Planck (PNP) system in the singularly perturbed regime ε ≪ 1, where thin boundary layers form at both ends of the channel. Instead of fitting the solution with a single network, PVD-Net represents the terms of a matched asymptotic expansion: separate networks learn the outer solution and the inner (boundary-layer) solutions in the stretched variables ξ = x/ε and η = (x−1)/ε, the Prandtl or Van Dyke matching conditions enter the loss, and the ion fluxes J_k are learnable parameters. The global solution is reconstructed from the composite expansion. Since the loss functions do not involve ε, the training problem is the same for every ε.
 
-![Vanilla PINN vs High-order PVD-Net on Setting A](images/settingA_pinn_vs_pvdnet.png)
+![Vanilla PINN vs High-order PVD-Net on Setting A](settingA_pinn_vs_pvdnet.png)
 
 *Setting A (1:−1 valences), ε = 10⁻². Top: Vanilla PINN misses both boundary layers, with pointwise errors up to 10⁻¹. Bottom: High-order PVD-Net with the same number of parameters and collocation points, with pointwise errors of order 10⁻⁵. The insets magnify the layers x ∈ [0, 0.01] and x ∈ [0.99, 1].*
 
