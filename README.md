@@ -124,10 +124,6 @@ If you use this code, please cite:
 }
 ```
 
-## License
-
-This project is released under the MIT License; see [LICENSE](LICENSE).
-
 ## Contact
 
 Jian Zu (corresponding author), School of Mathematics and Statistics, Northeast Normal University: zuj100@nenu.edu.cn
