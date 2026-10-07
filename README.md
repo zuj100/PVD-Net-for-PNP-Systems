@@ -76,12 +76,12 @@ Parameter counts (Table 2) and training times (Table 7) are printed in the noteb
 
 All experiments in folders 1–4 use use ε = 10⁻² and V = 1. L and R are the bath concentrations at x = 0 and x = 1.
 
-| Setting | Valences | h(x) | Q | L | R | Training steps (Staged: stages 1 + 2 + 3) |
+| Setting | Valences | h(x) | Q | L | R | Training steps |
 |---|---|---|---|---|---|---|
-| A | (1, −1) | 1 | 0 | (1.0, 2.0) | (1.5, 1.0) | 1.5×10⁵ (5×10⁴ + 5×10⁴ + 5×10⁴) |
-| B | (2, −1) | 1 | 0 | (1.0, 1.5) | (2.5, 1.0) | 3×10⁵ (5×10⁴ + 5×10⁴ + 2×10⁵) |
-| C | (1, −1) | 1 | 0 | (0.8, 2.4) | (1.2, 1.8) | 3×10⁵ (5×10⁴ + 5×10⁴ + 2×10⁵) |
-| D | (2, 1, −1) | 1 − 0.2 sin(πx) | −0.15 | (0.5, 1.0, 1.5) | (3.0, 4.5, 4.0) | 3×10⁵ (1×10⁴ + 1×10⁴ + 2.8×10⁵) |
+| A | (1, −1) | 1 | 0 | (1.0, 2.0) | (1.5, 1.0) | 1.5×10⁵ |
+| B | (2, −1) | 1 | 0 | (1.0, 1.5) | (2.5, 1.0) | 3×10⁵ |
+| C | (1, −1) | 1 | 0 | (0.8, 2.4) | (1.2, 1.8) | 3×10⁵ |
+| D | (2, 1, −1) | 1 − 0.2 sin(πx) | −0.15 | (0.5, 1.0, 1.5) | (3.0, 4.5, 4.0) | 3×10⁵ |
 
 Setting C corresponds to the relaxation parameters σ = 1/3 and ρ = 2/3. Within each setting, all methods use the same number of training steps.
 
