@@ -87,7 +87,7 @@ Setting C corresponds to the relaxation parameters σ = 1/3 and ρ = 2/3. Within
 
 ## Requirements
 
-- Python 3.9 (folders 0–4) or Python 3.12 (folder 5)
+- Python 3.9
 - PyTorch, NumPy, SciPy, Matplotlib, Jupyter
 
 ```bash
