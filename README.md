@@ -104,13 +104,6 @@ The problem parameters are set in a single cell; search for `eps = 1e-2`.
 
 The outputs of the runs reported in the paper are kept in the notebooks, so the results can be inspected without re-running. On an RTX 4070, one notebook takes between about 0.4 h (Vanilla PINN, Setting A) and 5 h (High-order PVD-Net, Setting D). Each ε-sweep notebook trains four models and takes about 3.7 h (Leading), 6.6 h (Staged) or 8.1 h (High).
 
-## Notes
-
-- **Random seeds.** The notebooks of Setting D and of the ε sweep fix the random seed (`SEED = 0`). Those of Settings A–C do not, so re-running them gives numbers that differ slightly from the paper.
-- **Saved figures.** Figures are written as PDF and PNG to the working directory. The three ε-sweep notebooks all write `eps_scaling.pdf` and `eps_scaling.png`, so running them in the same folder overwrites these files.
-- **Repeated runs.** The last section of the notebooks in folders 1–4 contains a loop over five fixed seeds. It is stored as a Markdown cell and is not executed; change the cell type to Code to run it.
-- **Language.** Comments, Markdown text and printed output in the notebooks are partly in Chinese.
-
 ## Citation
 
 If you use this code, please cite:
