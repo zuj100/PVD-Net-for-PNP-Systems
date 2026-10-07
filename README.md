@@ -74,7 +74,7 @@ Parameter counts (Table 2) and training times (Table 7) are printed in the noteb
 
 ## Problem settings
 
-All experiments use ε = 10⁻² and V = 1. L and R are the bath concentrations at x = 0 and x = 1.
+All experiments in folders 1–4 use use ε = 10⁻² and V = 1. L and R are the bath concentrations at x = 0 and x = 1.
 
 | Setting | Valences | h(x) | Q | L | R | Training steps (Staged: stages 1 + 2 + 3) |
 |---|---|---|---|---|---|---|
